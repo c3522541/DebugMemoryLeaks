@@ -1,0 +1,606 @@
+TDebugMemoryLeaks
+v7
+r0
+t319593684.523443
+cCheck dependencies
+cCpResource build/Debug-iphoneos/DebugMemoryLeaks.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/Info.plist DebugMemoryLeaks-Info.plist
+cCompileXIB /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib
+cCompileXIB /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib
+cProcessPCH /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch.gch DebugMemoryLeaks_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch.gch DebugMemoryLeaks_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/main.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaksAppDelegate.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/RootViewController.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/main.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaksAppDelegate.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/RootViewController.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision" /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision
+c000000004D45FE7F00000000000021AA
+t1296432767
+s8618
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.h
+c000000004D5C607E00000000000001ED
+t1297899646
+s493
+i<UIKit/UIKit.h>
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m
+c000000004D5C607E0000000000000ACA
+t1297899646
+s2762
+i"DebugMemoryLeaksAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.h
+c000000004D5C612E0000000000000121
+t1297899822
+s289
+i<UIKit/UIKit.h>
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m
+c000000004D5C650A00000000000012BE
+t1297900810
+s4798
+i"RootViewController.h"
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks_Prefix.pch
+c000000004D5C607E0000000000000152
+t1297899646
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib
+c000000004D5C607E0000000000006018
+t1297899646
+s24600
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib
+c000000004D5C607E000000000000445B
+t1297899646
+s17499
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app.dSYM
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/DebugMemoryLeaks
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/Info.plist
+t1297900882
+s823
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/MainWindow.nib
+t1297900882
+s1518
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/PkgInfo
+t1297900882
+s8
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/ResourceRules.plist
+t1297900882
+s485
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/RootViewController.nib
+t1297900882
+s979
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision
+t1297900884
+s8618
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent
+t1297900884
+s438
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaks
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaks.LinkFileList
+c000000004D5C655200000000000001ED
+t1297900882
+s493
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaksAppDelegate.o
+t1297900884
+s52604
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/main.o
+t1297900884
+s6484
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaks
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaks.LinkFileList
+c000000004D5C655200000000000001ED
+t1297900882
+s493
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaksAppDelegate.o
+t1297900884
+s52524
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/main.o
+t1297900884
+s6468
+
+N/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m
+c000000004D5C607E0000000000000171
+t1297899646
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch.gch
+t1297900884
+s9983704
+
+N/var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch.gch
+t1297900884
+s10446552
+
+NDebugMemoryLeaks-Info.plist
+c000000004D5C607E000000000000038D
+t1297899646
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319593682#319593682#0(0"0(0#1#0"8660435424#0"0#
+
+CCodeSign /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app
+r0
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaksAppDelegate.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319593684.247071
+e319593684.325119
+r1
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaksAppDelegate.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m319593684#319593684#0(0"0(0#0#94"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m8653054272#2156"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv6 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaksAppDelegate.o0#
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/RootViewController.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319593684.309396
+e319593684.394486
+r0
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/RootViewController.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:84: warning: unused variable 'itemString'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:135: warning: unused variable 'itemString'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController dealloc]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: expected ']' before 'release'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: array subscript is not an integer
+o{standard input}:1123:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L82"
+o{standard input}:1123:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1122:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L81"
+o{standard input}:1122:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:1121:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L80"
+o{standard input}:1121:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1065:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L75"
+o{standard input}:1065:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:1064:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L74"
+o{standard input}:1064:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:1019:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L69"
+o{standard input}:1019:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:1016:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L66"
+o{standard input}:1016:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:1015:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L65"
+o{standard input}:1015:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1014:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L64"
+o{standard input}:1014:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:1013:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" minus "L63"
+o{standard input}:1013:symbol: "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1011:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L61"
+o{standard input}:1011:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1010:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L60"
+o{standard input}:1010:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:1009:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L59"
+o{standard input}:1009:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:1007:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L57"
+o{standard input}:1007:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1006:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L56"
+o{standard input}:1006:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:1005:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L55"
+o{standard input}:1005:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:1004:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L54"
+o{standard input}:1004:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:1003:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L53"
+o{standard input}:1003:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:721:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L48"
+o{standard input}:721:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L46"
+o{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:718:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L45"
+o{standard input}:718:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:717:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L44"
+o{standard input}:717:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:716:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L43"
+o{standard input}:716:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L42"
+o{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L41"
+o{standard input}:714:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:713:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L40"
+o{standard input}:713:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:711:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L38"
+o{standard input}:711:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:710:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L37"
+o{standard input}:710:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:709:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L36"
+o{standard input}:709:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:707:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L32"
+o{standard input}:707:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:503:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L27"
+o{standard input}:503:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:502:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L26"
+o{standard input}:502:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:412:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L7"
+o{standard input}:412:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"
+o{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:410:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L5"
+o{standard input}:410:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:409:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L4"
+o{standard input}:409:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+o{standard input}:408:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:407:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L2"
+o{standard input}:407:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_objc_msgSendSuper2$stub
+o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+lSLF07#2@93"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593684#319593684#0(11320"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:84: warning: unused variable 'itemString'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:135: warning: unused variable 'itemString'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController dealloc]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: expected ']' before 'release'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: array subscript is not an integer{standard input}:1123:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L82"{standard input}:1123:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1122:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L81"{standard input}:1122:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:1121:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L80"{standard input}:1121:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1065:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L75"{standard input}:1065:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:1064:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L74"{standard input}:1064:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:1019:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L69"{standard input}:1019:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:1016:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L66"{standard input}:1016:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:1015:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L65"{standard input}:1015:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1014:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L64"{standard input}:1014:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:1013:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" minus "L63"{standard input}:1013:symbol: "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1011:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L61"{standard input}:1011:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1010:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L60"{standard input}:1010:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:1009:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L59"{standard input}:1009:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:1007:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L57"{standard input}:1007:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1006:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L56"{standard input}:1006:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:1005:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L55"{standard input}:1005:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:1004:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L54"{standard input}:1004:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:1003:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L53"{standard input}:1003:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:721:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L48"{standard input}:721:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L46"{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:718:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L45"{standard input}:718:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:717:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L44"{standard input}:717:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:716:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L43"{standard input}:716:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:715:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L42"{standard input}:715:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L41"{standard input}:714:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:713:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L40"{standard input}:713:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:711:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L38"{standard input}:711:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:710:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L37"{standard input}:710:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:709:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L36"{standard input}:709:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:707:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L32"{standard input}:707:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:503:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L27"{standard input}:503:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:502:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L26"{standard input}:502:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:412:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L7"{standard input}:412:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:410:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L5"{standard input}:410:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:409:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L4"{standard input}:409:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"{standard input}:408:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:407:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L2"{standard input}:407:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSendSuper2$stub{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_144(22@28"Unused variable 'itemString'319593684#157#128#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#84#0#84#0#19"unused variable '*'0(22@28"Unused variable 'itemString'319593684#444#129#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#135#0#135#0#19"unused variable '*'0(4@29"Expected ']' before 'release'319593684#705#128#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#168#0#168#0#19"expected * before *0(4@33"Array subscript is not an integer319593684#833#132#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#168#0#168#0#0"0(0#0#85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m8611856864#2138"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv6 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/RootViewController.o1#
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/main.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319593684.245447
+e319593684.309295
+r1
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/main.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m319593684#319593684#0(0"0(0#0#63"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m8656519744#2102"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv6 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaksAppDelegate.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319593684.394589
+e319593684.481578
+r1
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaksAppDelegate.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m319593684#319593684#0(0"0(0#0#94"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m8659616096#2156"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv7 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/DebugMemoryLeaksAppDelegate.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaksAppDelegate.o0#
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/RootViewController.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319593684.400207
+e319593684.468206
+r0
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/RootViewController.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:84: warning: unused variable 'itemString'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:135: warning: unused variable 'itemString'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController dealloc]':
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: expected ']' before 'release'
+o/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: array subscript is not an integer
+o{standard input}:1004:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L82"
+o{standard input}:1004:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:1003:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L81"
+o{standard input}:1003:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:1002:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L80"
+o{standard input}:1002:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:949:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L75"
+o{standard input}:949:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:948:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L74"
+o{standard input}:948:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:907:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L69"
+o{standard input}:907:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:904:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L66"
+o{standard input}:904:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:903:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L65"
+o{standard input}:903:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:902:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L64"
+o{standard input}:902:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:901:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" minus "L63"
+o{standard input}:901:symbol: "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:899:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L61"
+o{standard input}:899:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:898:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L60"
+o{standard input}:898:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L59"
+o{standard input}:897:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:895:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L57"
+o{standard input}:895:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:894:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L56"
+o{standard input}:894:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:893:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L55"
+o{standard input}:893:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:892:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L54"
+o{standard input}:892:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:891:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L53"
+o{standard input}:891:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:640:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L48"
+o{standard input}:640:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:638:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L46"
+o{standard input}:638:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:637:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L45"
+o{standard input}:637:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:636:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L44"
+o{standard input}:636:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:635:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L43"
+o{standard input}:635:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:634:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L42"
+o{standard input}:634:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:633:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L41"
+o{standard input}:633:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L40"
+o{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:630:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L38"
+o{standard input}:630:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:629:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L37"
+o{standard input}:629:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:628:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L36"
+o{standard input}:628:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:626:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L32"
+o{standard input}:626:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:440:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L27"
+o{standard input}:440:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:439:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L26"
+o{standard input}:439:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L7"
+o{standard input}:357:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:356:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"
+o{standard input}:356:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:355:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L5"
+o{standard input}:355:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:354:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L4"
+o{standard input}:354:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:353:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+o{standard input}:353:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:352:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L2"
+o{standard input}:352:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_objc_msgSendSuper2$stub
+o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+lSLF07#2@93"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593684#319593684#0(11290"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:84: warning: unused variable 'itemString'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:135: warning: unused variable 'itemString'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m: In function '-[RootViewController dealloc]':/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: expected ']' before 'release'/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m:168: error: array subscript is not an integer{standard input}:1004:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L82"{standard input}:1004:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:1003:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L81"{standard input}:1003:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:1002:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L80"{standard input}:1002:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:949:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L75"{standard input}:949:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:948:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L74"{standard input}:948:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:907:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L69"{standard input}:907:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:904:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L66"{standard input}:904:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:903:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L65"{standard input}:903:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:902:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L64"{standard input}:902:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:901:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" minus "L63"{standard input}:901:symbol: "L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:899:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L61"{standard input}:899:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:898:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L60"{standard input}:898:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L59"{standard input}:897:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:895:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L57"{standard input}:895:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:894:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L56"{standard input}:894:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:893:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L55"{standard input}:893:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:892:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L54"{standard input}:892:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:891:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L53"{standard input}:891:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:640:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L48"{standard input}:640:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:638:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L46"{standard input}:638:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:637:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L45"{standard input}:637:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:636:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L44"{standard input}:636:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:635:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L43"{standard input}:635:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:634:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L42"{standard input}:634:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:633:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L41"{standard input}:633:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L40"{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:630:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L38"{standard input}:630:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:629:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L37"{standard input}:629:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:628:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L36"{standard input}:628:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:626:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L32"{standard input}:626:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:440:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L27"{standard input}:440:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:439:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L26"{standard input}:439:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L7"{standard input}:357:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:356:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"{standard input}:356:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:355:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L5"{standard input}:355:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:354:non-relocatable subtraction expression, "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" minus "L4"{standard input}:354:symbol: "L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:353:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"{standard input}:353:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:352:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L2"{standard input}:352:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSendSuper2$stub{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.items$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_RootViewController.lastSelectedItem$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_144(22@28"Unused variable 'itemString'319593684#157#128#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#84#0#84#0#19"unused variable '*'0(22@28"Unused variable 'itemString'319593684#444#129#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#135#0#135#0#19"unused variable '*'0(4@29"Expected ']' before 'release'319593684#705#128#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#168#0#168#0#19"expected * before *0(4@33"Array subscript is not an integer319593684#833#132#0(6@85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m319593610#168#0#168#0#0"0(0#0#85"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m8657174336#2138"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv7 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/Classes/RootViewController.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/RootViewController.o1#
+
+CCompileC build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/main.o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319593684.325229
+e319593684.400107
+r1
+xCompileC
+xbuild/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/main.o
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m319593684#319593684#0(0"0(0#0#63"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m8604120288#2102"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv7 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -include /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/main.m -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib
+s319593682.383499
+e319593682.816919
+r1
+xCompileXIB
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319593682#319593682#0(0"0(0#0#71"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib29836824280170576#605"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/MainWindow.nib /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib
+s319593682.385974
+e319593682.840803
+r1
+xCompileXIB
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib319593682#319593682#0(0"0(0#0#79"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib8660514432#621"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/RootViewController.nib /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/DebugMemoryLeaks.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319593682.354520
+e319593682.383198
+r1
+xCpResource
+xbuild/Debug-iphoneos/DebugMemoryLeaks.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319593682#319593682#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8658355808#539"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app0#
+
+CCreateUniversalBinary /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/DebugMemoryLeaks normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app.dSYM /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/DebugMemoryLeaks
+r0
+
+CLd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv6/DebugMemoryLeaks normal armv6
+r0
+
+CLd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/Objects-normal/armv7/DebugMemoryLeaks normal armv7
+r0
+
+CProcessInfoPlistFile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/Info.plist DebugMemoryLeaks-Info.plist
+s319593682.355887
+e319593682.383429
+r1
+xProcessInfoPlistFile
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/Info.plist
+xDebugMemoryLeaks-Info.plist
+lSLF07#2@35"Process DebugMemoryLeaks-Info.plist319593682#319593682#0(0"0(0#0#84"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks-Info.plist8657577344#670"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DebugMemoryLeaks-Info.plist -genpkginfo /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/ResourceRules.plist -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/Info.plist0#
+
+CProcessPCH /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch.gch DebugMemoryLeaks_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319593682.840923
+e319593684.245199
+r1
+xProcessPCH
+x/var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch.gch
+xDebugMemoryLeaks_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile DebugMemoryLeaks_Prefix.pch319593682#319593684#0(0"0(0#0#84"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks_Prefix.pch8659316352#1973"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv6 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks_Prefix.pch -o /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-akzfjhtbuedlssbszrqmgrnjvuxa/DebugMemoryLeaks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch.gch DebugMemoryLeaks_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319593682.841888
+e319593684.108280
+r1
+xProcessPCH
+x/var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch.gch
+xDebugMemoryLeaks_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile DebugMemoryLeaks_Prefix.pch319593682#319593684#0(0"0(0#0#84"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks_Prefix.pch8658871712#1973"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-generated-files.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-own-target-headers.hmap -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-all-target-headers.hmap -iquote /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks-project-headers.hmap -F/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/include -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources/armv7 -I/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DerivedSources -c /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/DebugMemoryLeaks_Prefix.pch -o /var/folders/4l/4lqt3YOlEZCtMmI1FcJ4EU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DebugMemoryLeaks_Prefix-athltanahbahcbclrwxnebitvtcw/DebugMemoryLeaks_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision" /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision
+s319593684.481683
+e319593684.483456
+r1
+xProcessProductPackaging
+x/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision" build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision319593684#319593684#0(0"0(0#0#123"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision8603160992#470"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/lambert/Library/MobileDevice/Provisioning Profiles/8D152834-2281-4FAA-B671-693AC7AB239D.mobileprovision" -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent
+s319593684.483536
+e319593684.523376
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent
+lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent319593684#319593684#0(0"0(0#0#146"/Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent8602202624#495"    cd /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/DebugMemoryLeaks.build/Debug-iphoneos/DebugMemoryLeaks.build/DebugMemoryLeaks.xcent0#
+
+CTouch /Volumes/Backup/Projects/iPhoneProjects/DebugMemoryLeaks/build/Debug-iphoneos/DebugMemoryLeaks.app
+r0
+
