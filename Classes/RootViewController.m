@@ -84,6 +84,7 @@
 	NSString *itemString = [[NSString alloc] initWithFormat:@"%d: %@", indexPath.row, flowerName];
 	
 	cell.textLabel.text = itemString;
+    [itemString release];
 	
     return cell;
 }
@@ -143,8 +144,9 @@
 										  cancelButtonTitle:nil 
 										  otherButtonTitles:@"확인", nil];
 	[alert show];
-	
-	lastSelectedItem = itemString;
+	[alert release];
+    [lastSelectedItem release];
+	lastSelectedItem = [itemString retain];
 }
 
 
